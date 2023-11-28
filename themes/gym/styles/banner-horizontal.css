@@ -1,0 +1,75 @@
+.banner-horizontal {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: var(--colorPrimario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+.title_banner span {
+    color: var(--colorSecundario);
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+
+.empty{
+    width: 30%;
+}
+.title-midle {
+    margin-left: 3px;
+    width: 63%;
+}
+.eslogan{
+    color: white;
+    font-size: 23px;
+}
+.title-midle h3{
+    text-align: center;
+    color: white;
+}
+.btn-contact{
+    width: 25%;
+}
+.btn-cont{
+    background-color: white;
+    color: var(--colorPrimario);
+    font-family: var(--fuentePrincipal);
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn-cont:hover{
+    background-color: var(--colorPrimario);
+    color: white;
+
+}
+@media (max-width: 767px) {
+    /* Estilos para pantallas con ancho de 767 píxeles o menos */
+    .banner-horizontal {
+        display: block;
+    }
+    .empty{
+display: none;
+    }
+    .title-midle {
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    p.eslogan {
+        margin-bottom: 30px;
+    }
+    .title-midle h3 {
+        text-align: center;
+        color: white;
+        font-size: 21px;
+    }
+    .btn-contact {
+        width: 100%;
+        text-align: center;
+    }
+  
+}

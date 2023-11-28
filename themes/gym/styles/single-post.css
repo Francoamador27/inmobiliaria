@@ -1,0 +1,14 @@
+.title-single{
+    background-image: url("/wp-content/uploads/2023/08/Rectangle-25.png");
+    padding: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.title-single h1{
+    font-family: var(--fuentePrincipal);
+    font-size: 26px;
+}
+.title-post {
+    color: red;
+}

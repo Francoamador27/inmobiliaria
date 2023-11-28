@@ -1,0 +1,61 @@
+.listado-grid{
+    margin-top: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.banner-search{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card-search {
+    width: 250px;
+    margin-bottom: 0px;
+margin: 10px 10px;
+    height: 380px;
+}
+li.card-search {
+    list-style: none;
+}
+.title-card-search{
+    font-size: 20px;
+}
+p.btn-search {
+    font-size: 18px;
+    margin-top: 10px;
+    color: var(--colorPrimario);
+}
+span.pagination-current {
+    font-size: 22px;
+    font-family: var(--fuentePrincipal);
+    color: var(--colorPrimario);
+    
+}
+input.pag {
+    border: 1px solid var(--colorPrimario);
+    padding: 5px;
+    border-radius: 5px;
+    width: 20px;
+}
+.override-pagination {
+    text-align: center;
+    color: var(--colorPrimario);
+    font-size: 22px;
+}
+.main-search {
+    display: flex;
+}
+section.lists-cards {
+    width: 65%;
+}
+section.mapa-laflet {
+    width: 30%;
+}
+.pop-filtros {
+    text-align: center;
+    margin-bottom: 23px;
+}
+h4.title-marker {
+    font-size: 18px;
+    font-weight: 800;
+}

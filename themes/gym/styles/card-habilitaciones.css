@@ -1,0 +1,113 @@
+
+.hab-title{
+    font-size: 45px;
+    color: #333333;
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    font-weight: bold;
+}
+h3.card-title {
+    width: 245px;
+}
+h2.hab-title {
+    margin-bottom: 40px;
+}
+.habi-serv{
+    text-align: center;
+}
+.hab-title3{
+    color: var(--colorPrimario);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.4px; /* 124.444% */
+    letter-spacing: 2.88px;
+}
+.habilitaciones-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.habilitacion-item{
+    font-family: var(--fuentePrincipal);
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 47px;
+    margin-right: 47px;
+
+}
+/* CARDS HABILITACIONES */
+.card-title a{
+    color: var(--grisOscuro);
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+img.attachment-square.size-square.wp-post-image {
+    border-radius: 10px 10px 0px 0px;
+}
+a.btn-read {
+    margin-bottom: 20px;
+    padding: 13px 21px;
+    font-size: 14px;
+    font-family: var(--fuentePrincipal);
+    background-color: var(--colorPrimario);
+    clear: both;
+    border-radius: 50px;
+    color: var(--grisClaro);
+    text-decoration: none;
+}
+a.btn-read:hover {
+    background-color: var(--grisOscuro);
+    color: var(--colorPrimario);
+}
+.texto-contenedor{
+    margin-bottom: 20px;
+}
+p.texto-contenedor {
+    width: 245px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    max-height: 105px; /* Ajusta el valor según necesites */
+    overflow: hidden;
+}
+/* SLIDERS  */
+.swiper {
+    width: 95%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+      width: 226px;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+  .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    color: white;
+    font-size: 19px;
+    font-weight: 900;
+    background: #209b9142;
+    padding: 11px 16px;
+    border-radius: 50%;
+}
+.swiper-button-next:hover:after,
+.swiper-rtl .swiper-button-prev:hover:after,
+.swiper-button-prev:hover:after,
+.swiper-rtl .swiper-button-next:hover:after {
+    /* Aquí puedes definir los estilos que desees para el estado hover */
+    background: #209b91e7;
+    /* Por ejemplo, podrías cambiar el color de fondo al pasar el ratón sobre los botones. */
+}
+
+.contact-habi{
+    margin-top: 40px;
+    text-align: center;
+}
